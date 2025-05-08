@@ -8,5 +8,7 @@ public class AutoBoxing {
 
         Integer autoBoxing = value;
         int autoUnboxing = boxedValue;
+
+        System.out.println(autoBoxing.compareTo(Integer.valueOf(8)));
     }
 }
