@@ -28,8 +28,8 @@ public class AvailableCharactersetsMain {
         System.out.println("charset2 : " + charset2);
         
         // 자주 사용되는 문자 집합은 상수로 정의되어 있다.
-        Charset chaset3 = StandardCharsets.UTF_8;
-        System.out.println("charset3 : " + charset2);
+        Charset charset3 = StandardCharsets.UTF_8;
+        System.out.println("charset3 : " + charset3);
 
         // 시스템의 기본 Charset 조회
         Charset defaulCharset = Charset.defaultCharset();

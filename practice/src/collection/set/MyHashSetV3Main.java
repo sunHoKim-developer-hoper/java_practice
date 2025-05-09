@@ -5,7 +5,8 @@ public class MyHashSetV3Main {
     public static void main(String[] args) {
         MySet<String> set = new MyHashSetV3<>(10);
         set.add("A"); //O(1)
-        set.add("SET"); 
+        set.add("SET");
+        set.add("B"); 
         System.out.println(set);
 
         //검색

@@ -7,7 +7,7 @@ public class ClassMetaMain {
     
     public static void main(String[] args) throws Exception{
         // 클래스 조회 3 가지 방식이 있다.
-        Class clazz = String.class; 
+        Class<?> clazz = String.class; 
         //new String().getClass();
         //Class.forName("java.lang.String");
     
