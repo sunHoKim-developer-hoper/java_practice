@@ -33,6 +33,7 @@ public class EncodingMain2 {
         test("뷁", UTF_8, EUC_KR);
         test("뷁", EUC_KR, UTF_8);
         test("뷁", MS_949, UTF_8);
+        System.out.println(+123132);
     }   
 
     private static void test(String text, Charset encodingCharset, Charset decodingCharset) {

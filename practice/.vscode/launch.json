@@ -1,0 +1,7 @@
+{
+  "type": "java",
+  "name": "공통 실행 설정",
+  "request": "launch",
+  "console": "integratedTerminal",
+  "vmArgs": "-Dfile.encoding=UTF-8"
+}
