@@ -5,7 +5,7 @@ import generic.animal.Animal;
 public class WildCardEx {
     
     static <T> void printGenericV1(Box<T> box){
-        System.out.println("T = " +box.getValue());
+        System.out.println("T = " + box.getValue());
     }
 
     static <T extends Animal> void printGenericV2(Box<T> box){

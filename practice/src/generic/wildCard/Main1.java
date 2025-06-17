@@ -14,6 +14,10 @@ public class Main1 {
         WildCardEx.printGenericV2(dogBox);
         WildCardEx.printWildcardV1(dogBox);
         Dog d = WildCardEx.printGenericV3(dogBox);
+
+        catBox.setValue(new Cat("야옹", 20));
+        Cat cat = WildCardEx.printGenericV3(catBox);
+        System.out.println("cat's size : " + cat.getSize());
     }
 
     static void writeBox(Box<? super Animal> box){

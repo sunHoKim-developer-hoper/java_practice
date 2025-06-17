@@ -1,6 +1,5 @@
 package generic.genericMethod;
 
-import generic.animal.Animal;
 import generic.animal.Cat;
 import generic.animal.Dog;
 
