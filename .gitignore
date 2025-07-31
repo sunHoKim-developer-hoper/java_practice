@@ -1,0 +1,36 @@
+# Java compiled class files
+*.class
+
+# Logs
+*.log
+
+# VSCode settings
+.vscode/
+
+# Compiled binary output
+bin/
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Maven / Gradle (선택)
+target/
+build/
+out/
+
+# 기타
+*.jar
+*.war
+*.ear
