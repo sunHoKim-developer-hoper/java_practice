@@ -9,7 +9,7 @@ public class DaemonThreadMain {
         System.out.println(Thread.currentThread().getName() + ": main() End");
     }
 
-    static class DaemonThread extends Thread{
+    static class DaemonThread extends Thread {
         @Override
         public void run() {
             System.out.println(Thread.currentThread().getName() + ": run()");

@@ -4,8 +4,7 @@ import static thread.util.MyLogger.log;
 public class StartTest1Main {
     
     public static void main(String[] args) {
-        CounterRunnable counterRunnable = new CounterRunnable();
-        Thread thread = new Thread(counterRunnable, "counter");
+        Thread thread = new Thread(new CounterRunnable(), "counter");
         thread.start();
     }
 
