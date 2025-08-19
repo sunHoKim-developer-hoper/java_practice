@@ -20,7 +20,7 @@ public class ThreadStopMainV4 {
 
         @Override
         public void run() {
-            while (!Thread.interrupted()) { // 인터럽트 상태만 확인하는 것이고 변경하지는 않는다.
+            while (!Thread.interrupted()) {
                 log("작업 중");
             }
             log("work 스레드 인터럽트 상태2 = " + Thread.currentThread().isInterrupted());
