@@ -1,6 +1,6 @@
 package thread.control;
 
-import static thread.util.MyLogger.*;
+import static util.MyLogger.*;
 
 import thread.runnable.HelloRunnable;
 

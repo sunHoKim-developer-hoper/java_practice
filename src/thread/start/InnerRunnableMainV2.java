@@ -1,5 +1,5 @@
 package thread.start;
-import static thread.util.MyLogger.*;
+import static util.MyLogger.*;
 
 public class InnerRunnableMainV2 {
 

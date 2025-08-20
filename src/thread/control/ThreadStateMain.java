@@ -1,6 +1,6 @@
 package thread.control;
 
-import static thread.util.MyLogger.*;
+import static util.MyLogger.*;
 
 public class ThreadStateMain {
 
